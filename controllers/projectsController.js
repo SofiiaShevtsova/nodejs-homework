@@ -12,7 +12,7 @@ exports.getAllProjects = catchAsync(async (req, res) => {
   const features = new APIFeatures(
     Projects.find(
       {},
-      { poster: 1, title: 1, enTitle: 1, description: 1, enDescription: 1 }
+      { poster: 1, title: 1, enTitle: 1, description: 1, enDescription: 1, status: 1 }
     ),
     req.query
   )
