@@ -13,9 +13,9 @@ const projectsSchema = new mongoose.Schema({
   detailDesc: {
     start: { type: String },
     enStart: { type: String },
-    text: { type: String },
-    enText: { type: String },
-    image: { type: String },
+    text: [{ type: String }],
+    enText: [{ type: String }],
+    image: [{ type: String }],
   },
   mission: {
     image: { type: String },
