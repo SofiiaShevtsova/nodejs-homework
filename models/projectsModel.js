@@ -44,7 +44,7 @@ const projectsSchema = new mongoose.Schema({
     enText: { type: String },
     link: { type: String },
   },
-  partnersCount: [{ name: { type: String }, logo: { type: String } }],
+  partners: [{ name: { type: String }, logo: { type: String } }],
 });
 
 const Projects = mongoose.model("Projects", projectsSchema);
