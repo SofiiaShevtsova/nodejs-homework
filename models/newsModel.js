@@ -7,7 +7,7 @@ const enCategory = [
   "Events",
   "Personals",
 ];
-const ukCategory = ["Анонси", "Статті", "Проекти", "Події", "Персоналії"];
+const ukCategory = ["Анонси", "Статті", "Проєкти", "Події", "Персоналії"];
 
 const newsSchema = new mongoose.Schema({
   title: { type: String, required: true },
