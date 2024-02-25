@@ -37,7 +37,7 @@ const projectsSchema = new mongoose.Schema({
   },
   videos: [{ type: String, default: null }],
   photos: [{ type: String, default: null }],
-  locationsCount: {
+  location: {
     title: { type: String },
     enTitle: { type: String },
     text: { type: String },
